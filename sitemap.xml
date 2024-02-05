@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC_24Feb/</loc>
+    
+    <lastmod>2024-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_W376/</loc>
+    
+    <lastmod>2024-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC_23Dec_p3/</loc>
     
     <lastmod>2024-02-04</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC_23Dec/</loc>
-    
-    <lastmod>2024-02-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_24Feb/</loc>
     
     <lastmod>2024-02-04</lastmod>
     
@@ -147,15 +156,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC_B119/</loc>
-    
-    <lastmod>2023-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_W376/</loc>
     
     <lastmod>2023-12-25</lastmod>
     

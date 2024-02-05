@@ -1,7 +1,8 @@
 https://gdst.dev/posts/LC_24Feb_p1/
+https://gdst.dev/posts/LC_24Feb/
+https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_23Dec_p3/
 https://gdst.dev/posts/LC_23Dec/
-https://gdst.dev/posts/LC_24Feb/
 https://gdst.dev/gallery/ina/index.html
 https://gdst.dev/gallery/kaguya/index.html
 https://gdst.dev/gallery/pekora/index.html
@@ -15,7 +16,6 @@ https://gdst.dev/posts/LC_W374/
 https://gdst.dev/posts/LC_W377/
 https://gdst.dev/posts/LC_B118/
 https://gdst.dev/posts/LC_B119/
-https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_W375/
 https://gdst.dev/posts/LC_W373/
 https://gdst.dev/posts/LC_B120/
