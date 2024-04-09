@@ -343,9 +343,9 @@
     
     <category term="周賽" scheme="https://gdst.dev/tags/%E5%91%A8%E8%B3%BD/"/>
     
-    <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
-    
     <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
+    
+    <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
     
     <category term="中位數貪心" scheme="https://gdst.dev/tags/%E4%B8%AD%E4%BD%8D%E6%95%B8%E8%B2%AA%E5%BF%83/"/>
     
