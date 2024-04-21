@@ -31,11 +31,11 @@
       
       <category domain="https://gdst.dev/categories/Algo/CPE/">CPE</category>
       
+      <category domain="https://gdst.dev/categories/Algo/CPE/CPE49/">CPE49</category>
+      
       <category domain="https://gdst.dev/categories/Algo/CPE/CPE-231212/">CPE-231212</category>
       
       <category domain="https://gdst.dev/categories/Algo/CPE/CPE-161220/">CPE-161220</category>
-      
-      <category domain="https://gdst.dev/categories/Algo/CPE/CPE49/">CPE49</category>
       
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
@@ -44,13 +44,13 @@
       
       <category domain="https://gdst.dev/tags/UVA/">UVA</category>
       
-      <category domain="https://gdst.dev/tags/C/">C++</category>
-      
       <category domain="https://gdst.dev/tags/CPE/">CPE</category>
       
-      <category domain="https://gdst.dev/tags/%E6%95%B8%E5%AD%B8-Math/">數學(Math)</category>
-      
       <category domain="https://gdst.dev/tags/CPE49/">CPE49</category>
+      
+      <category domain="https://gdst.dev/tags/C/">C++</category>
+      
+      <category domain="https://gdst.dev/tags/%E6%95%B8%E5%AD%B8-Math/">數學(Math)</category>
       
       <category domain="https://gdst.dev/tags/%E5%B9%BE%E4%BD%95%E8%88%87%E5%BA%A7%E6%A8%99/">幾何與座標</category>
       
@@ -89,9 +89,9 @@
       
       <category domain="https://gdst.dev/tags/UVA/">UVA</category>
       
-      <category domain="https://gdst.dev/tags/C/">C++</category>
-      
       <category domain="https://gdst.dev/tags/CPE/">CPE</category>
+      
+      <category domain="https://gdst.dev/tags/C/">C++</category>
       
       <category domain="https://gdst.dev/tags/%E6%95%B8%E5%AD%B8-Math/">數學(Math)</category>
       
@@ -128,9 +128,9 @@
       
       <category domain="https://gdst.dev/tags/UVA/">UVA</category>
       
-      <category domain="https://gdst.dev/tags/C/">C++</category>
-      
       <category domain="https://gdst.dev/tags/CPE/">CPE</category>
+      
+      <category domain="https://gdst.dev/tags/C/">C++</category>
       
       <category domain="https://gdst.dev/tags/%E6%A8%A1%E6%93%AC-Simulation/">模擬(Simulation)</category>
       
@@ -167,9 +167,9 @@
       
       <category domain="https://gdst.dev/tags/UVA/">UVA</category>
       
-      <category domain="https://gdst.dev/tags/C/">C++</category>
-      
       <category domain="https://gdst.dev/tags/CPE/">CPE</category>
+      
+      <category domain="https://gdst.dev/tags/C/">C++</category>
       
       <category domain="https://gdst.dev/tags/%E8%B2%AA%E5%A9%AA-Greedy/">貪婪(Greedy)</category>
       
@@ -210,11 +210,11 @@
       
       <category domain="https://gdst.dev/tags/UVA/">UVA</category>
       
+      <category domain="https://gdst.dev/tags/CPE/">CPE</category>
+      
       <category domain="https://gdst.dev/tags/C/">C++</category>
       
       <category domain="https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-DP/">動態規劃(DP)</category>
-      
-      <category domain="https://gdst.dev/tags/CPE/">CPE</category>
       
       
       <comments>https://gdst.dev/posts/UVA-10721/#disqus_thread</comments>
@@ -567,9 +567,9 @@
       
       <category domain="https://gdst.dev/tags/%E5%91%A8%E8%B3%BD/">周賽</category>
       
-      <category domain="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/">滑動窗口(Sliding Window)</category>
-      
       <category domain="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/">前綴和(Prefix Sum)</category>
+      
+      <category domain="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/">滑動窗口(Sliding Window)</category>
       
       <category domain="https://gdst.dev/tags/%E4%B8%AD%E4%BD%8D%E6%95%B8%E8%B2%AA%E5%BF%83/">中位數貪心</category>
       
