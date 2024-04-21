@@ -1256,11 +1256,47 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
       </tags>
   </entry>
   <entry>
+    <title>UVA-11498 Division of Nlogonia 解題紀錄</title>
+    <url>/posts/UVA-11498/</url>
+    <content><![CDATA[<h1 id="🔗-UVA-11498-Division-of-Nlogonia">🔗 <a href="https://vjudge.net/problem/UVA-11498">UVA-11498 Division of Nlogonia</a></h1>
+<h6 id="tags-基本-Basic">tags: <code>基本(Basic)</code></h6>
+<div class="note info simple flat"><p>測機用題，範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。<br>
+不過 <code>Python</code> 在 <code>ZeroJudge</code> 上需要使用 I/O 優化。</p>
+</div>
+<h2 id="題意">題意</h2>
+<ul>
+<li>給定一個分割點的座標 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(n, m)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">m</span><span class="mclose">)</span></span></span></span> ，以及 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 個點的座標 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>y</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(x_i, y_i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> ，輸出每個點在分割點的哪個象限，若在邊界上則輸出 <code>divisa</code> 。</li>
+</ul>
+<h2 id="思路">思路</h2>
+<ul>
+<li>根據題意判斷條件即可。</li>
+</ul>
+<div class="tabs" id="11498"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="11498-1">Python</button><button type="button" class="tab " data-href="11498-2">C++</button></ul><div class="tab-contents"><div class="tab-item-content active" id="11498-1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">input</span> = sys.stdin.readline</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">print</span>(<span class="params">val</span>):</span><br><span class="line">	sys.stdout.write(<span class="built_in">str</span>(val) + <span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> (<span class="literal">True</span>):</span><br><span class="line">	K = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">	<span class="keyword">if</span> <span class="keyword">not</span> K:</span><br><span class="line">		<span class="keyword">break</span></span><br><span class="line">	N, M = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">	<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(K):</span><br><span class="line">		X, Y = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">		<span class="keyword">if</span> X == N <span class="keyword">or</span> Y == M:</span><br><span class="line">			<span class="built_in">print</span>(<span class="string">&quot;divisa&quot;</span>)</span><br><span class="line">		<span class="keyword">elif</span> X &gt; N <span class="keyword">and</span> Y &gt; M:</span><br><span class="line">			<span class="built_in">print</span>(<span class="string">&quot;NE&quot;</span>)</span><br><span class="line">		<span class="keyword">elif</span> X &gt; N <span class="keyword">and</span> Y &lt; M:</span><br><span class="line">			<span class="built_in">print</span>(<span class="string">&quot;SE&quot;</span>)</span><br><span class="line">		<span class="keyword">elif</span> X &lt; N <span class="keyword">and</span> Y &gt; M:</span><br><span class="line">			<span class="built_in">print</span>(<span class="string">&quot;NO&quot;</span>)</span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			<span class="built_in">print</span>(<span class="string">&quot;SO&quot;</span>)</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="11498-2"><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> endl <span class="string">&#x27;\n&#x27;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>); cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>); cout.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line">	<span class="type">int</span> k, n, m, x, y;</span><br><span class="line">	<span class="keyword">while</span> (cin &gt;&gt; k &amp;&amp; k) &#123;</span><br><span class="line">		cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">		<span class="keyword">while</span> (k--) &#123;</span><br><span class="line">			cin &gt;&gt; x &gt;&gt; y;</span><br><span class="line">			<span class="keyword">if</span> (x == n || y == m) cout &lt;&lt; <span class="string">&quot;divisa&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span> (x &gt; n &amp;&amp; y &gt; m) cout &lt;&lt; <span class="string">&quot;NE&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span> (x &gt; n &amp;&amp; y &lt; m) cout &lt;&lt; <span class="string">&quot;SE&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span> (x &lt; n &amp;&amp; y &gt; m) cout &lt;&lt; <span class="string">&quot;NO&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">else</span> cout &lt;&lt; <span class="string">&quot;SO&quot;</span> &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+<hr>
+<h1 id="寫在最後">寫在最後</h1>
+<div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>Cover photo is remixed from <a href="https://tensor.art/u/689783477566047746/posts">@Tekeli_liw3</a>, thanks for his/her work!</p>
+</div>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Algo</category>
+        <category>UVA</category>
+        <category>CPE</category>
+        <category>CPE-200609</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>UVA</tag>
+        <tag>CPE</tag>
+        <tag>C++</tag>
+        <tag>基本(Basic)</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UVA-993 Product of digits 解題紀錄</title>
     <url>/posts/UVA-993/</url>
     <content><![CDATA[<h1 id="🔗-UVA-993-Product-of-digits">🔗 <a href="https://vjudge.net/problem/UVA-993">UVA-993 Product of digits</a></h1>
 <h6 id="tags-貪婪-Greedy">tags: <code>貪婪(Greedy)</code></h6>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。</p>
 </div>
 <h2 id="題意">題意</h2>
 <ul>
@@ -1299,7 +1335,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
     <url>/posts/UVA-392/</url>
     <content><![CDATA[<h1 id="🔗-UVA-392-Polynomial-Showdown">🔗 <a href="https://vjudge.net/problem/UVA-392">UVA-392 Polynomial Showdown</a></h1>
 <h6 id="tags-模擬-Simulation">tags: <code>模擬(Simulation)</code></h6>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。</p>
 </div>
 <h2 id="題意">題意</h2>
 <ul>
@@ -1391,7 +1427,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
     <url>/posts/UVA-10242/</url>
     <content><![CDATA[<h1 id="🔗-UVA-10242-Fourth-Point">🔗 <a href="https://vjudge.net/problem/UVA-10242">UVA-10242 Fourth Point !!</a></h1>
 <h6 id="tags-數學-Math-幾何與座標-計數-Counter">tags: <code>數學(Math)</code>, <code>幾何與座標</code>, <code>計數(Counter)</code></h6>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。</p>
 </div>
 <div class="note red icon-padding flat"><i class="note-icon fa-solid fa-circle-info"></i><p><code>UVA</code> 上的測資最後有空白行，請注意。</p>
 </div>
@@ -1647,7 +1683,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
     <url>/posts/UVA-12546/</url>
     <content><![CDATA[<h1 id="🔗-UVA-12546">🔗 <a href="https://vjudge.net/problem/UVA-12546">UVA-12546</a></h1>
 <h6 id="tags-數學-Math">tags: <code>數學(Math)</code></h6>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code> 上測試通過。(此題無 <code>ZeroJudge</code> )</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code> 上皆測試通過。(此題無 <code>ZeroJudge</code> )</p>
 </div>
 <h2 id="題意">題意</h2>
 <ul>
@@ -1720,7 +1756,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
     <url>/posts/UVA-11121/</url>
     <content><![CDATA[<h1 id="🔗-UVA-11121-Base-2">🔗 <a href="https://vjudge.net/problem/UVA-11121">UVA-11121 Base -2</a></h1>
 <h6 id="tags-模擬-Simulation">tags: <code>模擬(Simulation)</code></h6>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。</p>
 </div>
 <h2 id="題意：">題意：</h2>
 <ul>
@@ -1768,7 +1804,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
     <url>/posts/UVA-12428/</url>
     <content><![CDATA[<h1 id="🔗-UVA-12428-Enemy-at-the-Gates">🔗 <a href="https://vjudge.net/problem/UVA-12428">UVA-12428 Enemy at the Gates</a></h1>
 <h5 id="tags-貪婪-Greedy-二分搜尋-Binary-Search">tags: <code>貪婪(Greedy)</code>, <code>二分搜尋(Binary Search)</code></h5>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。<br>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上皆測試通過。<br>
 python 可以於 <code>UVA</code> 和 <code>瘋狂程設(CPE)</code> 上直接通過；但於 <code>ZeroJudge</code> 上需要加上二分搜尋(Binary Search) 的技巧才能通過。</p>
 </div>
 <h2 id="題意">題意</h2>
@@ -1835,7 +1871,7 @@ python 可以於 <code>UVA</code> 和 <code>瘋狂程設(CPE)</code> 上直接�
     <url>/posts/UVA-10721/</url>
     <content><![CDATA[<h1 id="🔗-UVA-10721-Bar-Codes">🔗 <a href="https://vjudge.net/problem/UVA-10721">UVA-10721 Bar Codes</a></h1>
 <h5 id="tags-動態規劃-DP-記憶化搜尋-Memoization">tags: <code>動態規劃(DP)</code>, <code>記憶化搜尋(Memoization)</code></h5>
-<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code> 上測試通過。(此題無 <code>ZeroJudge</code> )</p>
+<div class="note info simple flat"><p>範例程式碼已於<code>UVA</code>、<code>瘋狂程設(CPE)</code> 上皆測試通過 (此題無 <code>ZeroJudge</code> )。</p>
 </div>
 <h2 id="題意">題意</h2>
 <ul>
