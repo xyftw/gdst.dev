@@ -1256,6 +1256,45 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
       </tags>
   </entry>
   <entry>
+    <title>UVA-993 Product of digits 解題紀錄</title>
+    <url>/posts/UVA-993/</url>
+    <content><![CDATA[<h1 id="🔗-UVA-993-Product-of-digits">🔗 <a href="https://vjudge.net/problem/UVA-993">UVA-993 Product of digits</a></h1>
+<h6 id="tags-貪婪-Greedy">tags: <code>貪婪(Greedy)</code></h6>
+<div class="note info simple flat"><p>範例程式碼皆已於<code>UVA</code>、<code>瘋狂程設(CPE)</code>、<code>ZeroJudge</code> 上測試通過。</p>
+</div>
+<h2 id="題意">題意</h2>
+<ul>
+<li>給定一個正整數 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> ，輸出一個最小的數字 $$ ，使得 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 的所有位數相乘等於 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 。</li>
+</ul>
+<h2 id="思路：貪婪-Greedy">思路：貪婪(Greedy)</h2>
+<ul>
+<li>為使 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 的所有位數相乘等於 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>，需要對 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 做因數分解，並且只能使用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span> 到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>9</mn></mrow><annotation encoding="application/x-tex">9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span></span></span></span> 之中的數字。</li>
+<li>由於 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 的位數越多，其數值越大，而我們希望 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 的位數越少越好，因此在因數分解時可以先使用較大的數字。舉個例子 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>8</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">8 = 2^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span>，但 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>8</mn><mo>&lt;</mo><mn>222</mn></mrow><annotation encoding="application/x-tex">8 &lt; 222</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6835em;vertical-align:-0.0391em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">222</span></span></span></span> 。</li>
+<li>同樣地，為使 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span></span></span></span> 的值最小，對於因數分解的結果，應該讓較小的數字放在前面，因此可以由小到大檢查因數分解的結果，並加入到答案中。</li>
+<li>時間複雜度：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(\log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span>，因數分解。</li>
+<li>空間複雜度：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord">1</span><span class="mclose">)</span></span></span></span>，因數分解。</li>
+</ul>
+<div class="tabs" id="993"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="993-1">Python</button><button type="button" class="tab " data-href="993-2">C++</button></ul><div class="tab-contents"><div class="tab-item-content active" id="993-1"><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">T = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(T):</span><br><span class="line">	N = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">	<span class="keyword">if</span> N &lt;= <span class="number">1</span>: <span class="comment"># 0 or 1</span></span><br><span class="line">		<span class="built_in">print</span>(N)</span><br><span class="line">		<span class="keyword">continue</span></span><br><span class="line">	<span class="comment"># 因數分解，檢查有沒有大於10的因數，注意可以合併2^3=8來縮小答案</span></span><br><span class="line">	cnt = [<span class="number">0</span>] * <span class="number">10</span></span><br><span class="line">	<span class="keyword">for</span> p <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">9</span>, <span class="number">1</span>, -<span class="number">1</span>): <span class="comment"># [9, 2]</span></span><br><span class="line">		<span class="keyword">while</span> (N % p == <span class="number">0</span>):</span><br><span class="line">			cnt[p] += <span class="number">1</span></span><br><span class="line">			N //= p</span><br><span class="line">	<span class="keyword">if</span> N != <span class="number">1</span>: <span class="comment"># 有大於10的因數</span></span><br><span class="line">		<span class="built_in">print</span>(-<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		ans = <span class="string">&quot;&quot;</span></span><br><span class="line">		<span class="keyword">for</span> p <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>, <span class="number">10</span>):</span><br><span class="line">			ans += <span class="built_in">str</span>(p) * cnt[p]</span><br><span class="line">		<span class="built_in">print</span>(ans)</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="993-2"><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> endl <span class="string">&#x27;\n&#x27;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>); cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>); cout.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line">	<span class="type">int</span> t, n, cnt[<span class="number">10</span>];</span><br><span class="line">	cin &gt;&gt; t;</span><br><span class="line">	<span class="keyword">while</span> (t--) &#123;</span><br><span class="line">		cin &gt;&gt; n;</span><br><span class="line">		<span class="keyword">if</span> (n &lt;= <span class="number">1</span>) &#123;</span><br><span class="line">			cout &lt;&lt; n &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">continue</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">memset</span>(cnt, <span class="number">0</span>, <span class="built_in">sizeof</span>(cnt)); </span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> p = <span class="number">9</span>; p &gt; <span class="number">1</span>; p--) &#123; <span class="comment">// 因數分解</span></span><br><span class="line">			<span class="keyword">while</span> (n % p == <span class="number">0</span>) &#123;</span><br><span class="line">				cnt[p]++;</span><br><span class="line">				n /= p;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> (n != <span class="number">1</span>) &#123; <span class="comment">// 有大於10的因數</span></span><br><span class="line">			cout &lt;&lt; <span class="number">-1</span> &lt;&lt; endl;</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			string ans = <span class="string">&quot;&quot;</span>;</span><br><span class="line">			<span class="keyword">for</span> (<span class="type">int</span> p = <span class="number">2</span>; p &lt; <span class="number">10</span>; p++) &#123;</span><br><span class="line">				<span class="keyword">while</span> (cnt[p] --) &#123;</span><br><span class="line">					cout &lt;&lt; p;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			cout &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+<hr>
+<h1 id="寫在最後">寫在最後</h1>
+<div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>Cover photo is remixed from <a href="https://tensor.art/images/712824190409029600?post_id=712824194699802593">@ccqxin</a>, thanks for his/her work!</p>
+</div>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Algo</category>
+        <category>UVA</category>
+        <category>CPE</category>
+        <category>CPE-170328</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>UVA</tag>
+        <tag>CPE</tag>
+        <tag>C++</tag>
+        <tag>貪婪(Greedy)</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UVA-392 Polynomial Showdown 解題紀錄</title>
     <url>/posts/UVA-392/</url>
     <content><![CDATA[<h1 id="🔗-UVA-392-Polynomial-Showdown">🔗 <a href="https://vjudge.net/problem/UVA-392">UVA-392 Polynomial Showdown</a></h1>
@@ -1293,7 +1332,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>CPE-231212</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
+        <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
         <tag>C++</tag>
@@ -1341,7 +1380,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>CPE-231212</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
         <tag>C++</tag>
@@ -1594,7 +1632,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>CPE-161220</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
@@ -1671,7 +1708,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>CPE-231212</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
@@ -1719,7 +1755,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>CPE-231212</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
@@ -1787,7 +1822,6 @@ python 可以於 <code>UVA</code> 和 <code>瘋狂程設(CPE)</code> 上直接�
         <category>CPE-231212</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
@@ -1844,7 +1878,6 @@ python 可以於 <code>UVA</code> 和 <code>瘋狂程設(CPE)</code> 上直接�
         <category>CPE-161220</category>
       </categories>
       <tags>
-        <tag>Algo</tag>
         <tag>Python</tag>
         <tag>UVA</tag>
         <tag>CPE</tag>
