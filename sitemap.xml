@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gdst.dev/posts/LC-2192/</loc>
+    
+    <lastmod>2024-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC_24Jun/</loc>
+    
+    <lastmod>2024-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-494/</loc>
     
     <lastmod>2024-07-02</lastmod>
     
@@ -534,15 +552,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-523/</loc>
-    
-    <lastmod>2024-07-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-494/</loc>
     
     <lastmod>2024-07-02</lastmod>
     
@@ -2190,6 +2199,13 @@
   
   <url>
     <loc>https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/</loc>
+    <lastmod>2024-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E6%8B%93%E6%92%B2%E6%8E%92%E5%BA%8F-Topological-Sort/</loc>
     <lastmod>2024-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
