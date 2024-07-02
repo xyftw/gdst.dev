@@ -145,9 +145,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="併查集(Disjoint Set)" scheme="https://gdst.dev/tags/%E4%BD%B5%E6%9F%A5%E9%9B%86-Disjoint-Set/"/>
-    
     <category term="圖(Graph)" scheme="https://gdst.dev/tags/%E5%9C%96-Graph/"/>
+    
+    <category term="併查集(Disjoint Set)" scheme="https://gdst.dev/tags/%E4%BD%B5%E6%9F%A5%E9%9B%86-Disjoint-Set/"/>
     
     <category term="DSU" scheme="https://gdst.dev/tags/DSU/"/>
     
@@ -201,11 +201,11 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
+    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
+    
     <category term="圖(Graph)" scheme="https://gdst.dev/tags/%E5%9C%96-Graph/"/>
     
     <category term="貪心(Greedy)" scheme="https://gdst.dev/tags/%E8%B2%AA%E5%BF%83-Greedy/"/>
-    
-    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
     
     <category term="堆積(Heap)" scheme="https://gdst.dev/tags/%E5%A0%86%E7%A9%8D-Heap/"/>
     
@@ -404,9 +404,9 @@
     <category term="Medium" scheme="https://gdst.dev/categories/LeetCode/Medium/"/>
     
     
-    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
-    
     <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
+    
+    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
@@ -437,9 +437,9 @@
     <category term="Hard" scheme="https://gdst.dev/categories/LeetCode/Hard/"/>
     
     
-    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
-    
     <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
+    
+    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
     <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
     
@@ -470,11 +470,11 @@
     <category term="CPE-161004" scheme="https://gdst.dev/categories/UVA/CPE/CPE-161004/"/>
     
     
+    <category term="BFS" scheme="https://gdst.dev/tags/BFS/"/>
+    
     <category term="UVA" scheme="https://gdst.dev/tags/UVA/"/>
     
     <category term="CPE" scheme="https://gdst.dev/tags/CPE/"/>
-    
-    <category term="BFS" scheme="https://gdst.dev/tags/BFS/"/>
     
     <category term="佇列(Queue)" scheme="https://gdst.dev/tags/%E4%BD%87%E5%88%97-Queue/"/>
     
@@ -499,9 +499,9 @@
     <category term="Medium" scheme="https://gdst.dev/categories/LeetCode/Medium/"/>
     
     
-    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
-    
     <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
+    
+    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
     <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
     
@@ -526,15 +526,15 @@
     <category term="Hard" scheme="https://gdst.dev/categories/LeetCode/Hard/"/>
     
     
-    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
-    
     <category term="前綴和(Prefix Sum)" scheme="https://gdst.dev/tags/%E5%89%8D%E7%B6%B4%E5%92%8C-Prefix-Sum/"/>
+    
+    <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
     <category term="動態規劃(DP)" scheme="https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-DP/"/>
     
-    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
-    
     <category term="記憶化搜索(Memoization)" scheme="https://gdst.dev/tags/%E8%A8%98%E6%86%B6%E5%8C%96%E6%90%9C%E7%B4%A2-Memoization/"/>
+    
+    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
     
   </entry>
   
@@ -559,9 +559,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
-    
     <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
+    
+    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
     
   </entry>
   
@@ -586,9 +586,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
-    
     <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
+    
+    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
     
   </entry>
   
