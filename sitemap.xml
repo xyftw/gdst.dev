@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gdst.dev/posts/LC_24Jun/</loc>
+    
+    <lastmod>2024-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-1122/</loc>
+    
+    <lastmod>2024-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2710/</loc>
+    
+    <lastmod>2024-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-2663/</loc>
     
     <lastmod>2024-07-02</lastmod>
@@ -1100,15 +1127,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2710/</loc>
-    
-    <lastmod>2024-07-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC-2644/</loc>
     
     <lastmod>2024-07-02</lastmod>
@@ -1173,15 +1191,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-1002/</loc>
-    
-    <lastmod>2024-07-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_24Jun/</loc>
     
     <lastmod>2024-07-02</lastmod>
     
