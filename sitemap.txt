@@ -1,4 +1,6 @@
 https://gdst.dev/posts/LC_24Jul/
+https://gdst.dev/posts/LC-2418/
+https://gdst.dev/posts/LC-2956/
 https://gdst.dev/posts/LC-2392/
 https://gdst.dev/posts/LC-2101/
 https://gdst.dev/posts/LC-2959/
@@ -14,7 +16,6 @@ https://gdst.dev/posts/LC-1438/
 https://gdst.dev/posts/LC-1509/
 https://gdst.dev/posts/LC-2751/
 https://gdst.dev/posts/LC-724/
-https://gdst.dev/posts/LC-2956/
 https://gdst.dev/posts/LC-2974/
 https://gdst.dev/posts/LC-3033/
 https://gdst.dev/posts/LC_24Jun/
@@ -303,6 +304,7 @@ https://gdst.dev/tags/%E7%B5%84%E5%90%88%E6%95%B8%E5%AD%B8/
 https://gdst.dev/tags/%E7%9F%9B%E7%9B%BE%E6%B3%95-Contradiction/
 https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/
 https://gdst.dev/tags/%E6%8B%93%E6%A8%B8%E6%8E%92%E5%BA%8F-Topological-Sort/
+https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sort/
 https://gdst.dev/categories/AtCoder/
 https://gdst.dev/categories/AtCoder/ABC/
 https://gdst.dev/categories/Codeforces/

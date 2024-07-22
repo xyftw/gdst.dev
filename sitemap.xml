@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-2418/</loc>
+    
+    <lastmod>2024-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2956/</loc>
+    
+    <lastmod>2024-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-2392/</loc>
     
     <lastmod>2024-07-22</lastmod>
@@ -138,15 +156,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-724/</loc>
-    
-    <lastmod>2024-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2956/</loc>
     
     <lastmod>2024-07-16</lastmod>
     
@@ -2523,6 +2532,13 @@
   
   <url>
     <loc>https://gdst.dev/tags/%E6%8B%93%E6%A8%B8%E6%8E%92%E5%BA%8F-Topological-Sort/</loc>
+    <lastmod>2024-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sort/</loc>
     <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
