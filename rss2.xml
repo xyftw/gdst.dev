@@ -9,16 +9,16 @@
     <atom:link href="https://gdst.dev/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>你說的對，但是我孤單刷題。</description>
-    <pubDate>Thu, 01 Aug 2024 18:03:34 GMT</pubDate>
+    <pubDate>Thu, 01 Aug 2024 18:09:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>LeetCode 🟡 1653. Right Triangles</title>
+      <title>LeetCode 🟡 1653. Minimum Deletions to Make String Balanced</title>
       <link>https://gdst.dev/posts/LC-1653/</link>
       <guid>https://gdst.dev/posts/LC-1653/</guid>
       <pubDate>Thu, 01 Aug 2024 17:43:04 GMT</pubDate>
       
-      <description>Problem solving record for LeetCode 1653. Right Triangles.</description>
+      <description>Problem solving record for LeetCode 1653. Minimum Deletions to Make String Balanced.</description>
       
       
       
