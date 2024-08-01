@@ -1,5 +1,5 @@
-https://gdst.dev/posts/LC-1105/
-https://gdst.dev/posts/LC_24Jul/
-https://gdst.dev/posts/LC-2961/
-https://gdst.dev/posts/LC-3106/
-https://gdst.dev/posts/LC-2045/
+https://gdst.dev/posts/CF_1907/
+https://gdst.dev/posts/CF_1903/
+https://gdst.dev/posts/CF_1899/
+https://gdst.dev/posts/UVA-11624/
+https://gdst.dev/posts/UVA-11934/
