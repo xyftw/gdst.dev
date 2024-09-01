@@ -1,4 +1,7 @@
 https://gdst.dev/posts/LC_24Sep/
+https://gdst.dev/posts/LC-2024/
+https://gdst.dev/posts/LC-40/
+https://gdst.dev/posts/LC-1509/
 https://gdst.dev/posts/LC_24Jul/
 https://gdst.dev/posts/LC_24Aug/
 https://gdst.dev/posts/LC-860/
@@ -8,7 +11,6 @@ https://gdst.dev/posts/LC-719/
 https://gdst.dev/posts/LC-2045/
 https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_W375/
-https://gdst.dev/posts/LC-40/
 https://gdst.dev/posts/LC-676/
 https://gdst.dev/posts/LC-75/
 https://gdst.dev/posts/LC_24Jun/
@@ -190,7 +192,6 @@ https://gdst.dev/posts/LC-1823/
 https://gdst.dev/posts/LC-1958/
 https://gdst.dev/posts/LC-1673/
 https://gdst.dev/posts/LC-1535/
-https://gdst.dev/posts/LC-1509/
 https://gdst.dev/posts/LC-1382/
 https://gdst.dev/posts/LC-1442/
 https://gdst.dev/posts/LC_P300/
