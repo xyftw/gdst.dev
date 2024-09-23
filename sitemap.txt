@@ -1,3 +1,5 @@
+https://gdst.dev/posts/LC-884/
+https://gdst.dev/posts/LC-860/
 https://gdst.dev/posts/LC_24Sep/
 https://gdst.dev/posts/LC-2326/
 https://gdst.dev/posts/LC-2807/
@@ -8,7 +10,6 @@ https://gdst.dev/posts/LC-40/
 https://gdst.dev/posts/LC-1509/
 https://gdst.dev/posts/LC_24Jul/
 https://gdst.dev/posts/LC_24Aug/
-https://gdst.dev/posts/LC-860/
 https://gdst.dev/posts/LC-3151/
 https://gdst.dev/posts/LC-703/
 https://gdst.dev/posts/LC-719/
