@@ -1,5 +1,5 @@
-https://gdst.dev/posts/LC_24Sep/
-https://gdst.dev/posts/LC_24Aug/
+https://gdst.dev/posts/LC-1497/
+https://gdst.dev/posts/LC_24Oct/
 https://gdst.dev/posts/LC-1381/
-https://gdst.dev/posts/LC-2707/
-https://gdst.dev/posts/LC-884/
+https://gdst.dev/posts/LC-1331/
+https://gdst.dev/posts/LC_24Sep/
