@@ -83,6 +83,15 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-2326/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-884/</loc>
     
     <lastmod>2024-09-23</lastmod>
@@ -93,15 +102,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-860/</loc>
-    
-    <lastmod>2024-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2326/</loc>
     
     <lastmod>2024-09-23</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_W376/</loc>
+    <loc>https://gdst.dev/posts/LC_W375/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_W375/</loc>
+    <loc>https://gdst.dev/posts/LC_W376/</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-995/</loc>
+    <loc>https://gdst.dev/posts/LC-312/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-312/</loc>
+    <loc>https://gdst.dev/posts/LC-995/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -407,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/about/index.html</loc>
+    <loc>https://gdst.dev/about/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/fauna/index.html</loc>
+    <loc>https://gdst.dev/gallery/fauna/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -425,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/ina/index.html</loc>
+    <loc>https://gdst.dev/gallery/ina/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -434,7 +434,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/kaguya/index.html</loc>
+    <loc>https://gdst.dev/gallery/kaguya/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/miko/index.html</loc>
+    <loc>https://gdst.dev/gallery/miko/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -452,97 +452,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/pekora/index.html</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-11624/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-11934/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-834/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-12455/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-512/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-828/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-1714/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-11498/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-993/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-10721/</loc>
+    <loc>https://gdst.dev/gallery/pekora/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -569,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/index.html</loc>
+    <loc>https://gdst.dev/posts/UVA-993/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -578,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-10229/</loc>
+    <loc>https://gdst.dev/posts/UVA-11498/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -587,7 +497,79 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-392/</loc>
+    <loc>https://gdst.dev/posts/UVA-11624/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11934/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-12455/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-1714/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-512/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-828/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-834/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-10721/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/gallery/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -597,15 +579,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/UVA-10443/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-12546/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -632,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-11576/</loc>
+    <loc>https://gdst.dev/posts/UVA-12546/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -641,7 +614,16 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-10858/</loc>
+    <loc>https://gdst.dev/posts/UVA-392/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-10229/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -659,7 +641,25 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-442/</loc>
+    <loc>https://gdst.dev/posts/UVA-10672/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11175/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11576/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -677,7 +677,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-10672/</loc>
+    <loc>https://gdst.dev/posts/UVA-442/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -686,7 +686,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-573/</loc>
+    <loc>https://gdst.dev/posts/UVA-10858/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -713,6 +713,15 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/UVA-573/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/UVA-580/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -722,7 +731,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-11175/</loc>
+    <loc>https://gdst.dev/posts/ATC_ABC315/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -731,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-11349/</loc>
+    <loc>https://gdst.dev/posts/UVA-10041/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -749,7 +758,34 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/UVA-10242/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/UVA-10908/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11349/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11518/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -776,7 +812,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-11518/</loc>
+    <loc>https://gdst.dev/posts/UVA-1292/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -794,52 +830,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/UVA-1292/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-10041/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-10242/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/ATC_ABC315/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/ATC_ABC356/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_W377/</loc>
+    <loc>https://gdst.dev/posts/ATC_ABC317/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -857,7 +848,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_W374/</loc>
+    <loc>https://gdst.dev/posts/ATC_ABC356/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -875,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/ATC_ABC317/</loc>
+    <loc>https://gdst.dev/posts/LC_W374/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -884,52 +875,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2065/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-140/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1255/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1542/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_B120/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_B119/</loc>
+    <loc>https://gdst.dev/posts/LC_W377/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -947,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2392/</loc>
+    <loc>https://gdst.dev/posts/LC_B119/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -956,7 +902,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2959/</loc>
+    <loc>https://gdst.dev/posts/LC_B120/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -965,7 +911,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-726/</loc>
+    <loc>https://gdst.dev/posts/LC-1255/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -974,7 +920,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2751/</loc>
+    <loc>https://gdst.dev/posts/LC-140/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -983,7 +929,16 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-1051/</loc>
+    <loc>https://gdst.dev/posts/LC-1542/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2065/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1001,7 +956,52 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-1051/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2392/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2751/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2959/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-3068/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-726/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1019,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-1598/</loc>
+    <loc>https://gdst.dev/posts/LC-1122/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1037,16 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-1122/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2418/</loc>
+    <loc>https://gdst.dev/posts/LC-1598/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1064,15 +1055,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2037/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC-1863/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1082,7 +1064,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-724/</loc>
+    <loc>https://gdst.dev/posts/LC-2037/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1091,34 +1073,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2710/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2748/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-521/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2769/</loc>
+    <loc>https://gdst.dev/posts/LC-2418/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1136,7 +1091,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-350/</loc>
+    <loc>https://gdst.dev/posts/LC-2748/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1145,7 +1100,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-520/</loc>
+    <loc>https://gdst.dev/posts/LC-2710/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1154,7 +1109,25 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-409/</loc>
+    <loc>https://gdst.dev/posts/LC-2769/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-521/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-724/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1181,6 +1154,33 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-409/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-350/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-520/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-575/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1190,7 +1190,61 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-2331/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2582/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2806/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2903/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2928/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-2956/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2965/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1217,7 +1271,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2582/</loc>
+    <loc>https://gdst.dev/posts/LC-3038/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1235,106 +1289,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2806/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-3038/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2928/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2965/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2903/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2331/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1110/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2196/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1438/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1701/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC-1550/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2058/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1352,15 +1307,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-1248/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC-1052/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1370,61 +1316,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-1552/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1482/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-945/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1296/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2486/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-131/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-979/</loc>
+    <loc>https://gdst.dev/posts/LC-1110/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1442,7 +1334,25 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2244/</loc>
+    <loc>https://gdst.dev/posts/LC-1248/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-1296/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-131/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1460,6 +1370,42 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-1438/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-1482/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-1552/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-1701/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-1953/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1469,7 +1415,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2961/</loc>
+    <loc>https://gdst.dev/posts/LC-2058/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1478,7 +1424,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-3106/</loc>
+    <loc>https://gdst.dev/posts/LC-2196/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1487,7 +1433,34 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2976/</loc>
+    <loc>https://gdst.dev/posts/LC-2244/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2486/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-945/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-979/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1497,33 +1470,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-2101/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-807/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-3011/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-3101/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1550,7 +1496,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-494/</loc>
+    <loc>https://gdst.dev/posts/LC-2225/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1560,6 +1506,42 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-2285/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2288/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2517/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2597/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-260/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1586,42 +1568,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-2517/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2288/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-522/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-633/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC-2779/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1640,7 +1586,196 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-2812/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2831/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2929/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2938/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2961/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2976/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2982/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-2981/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3011/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3040/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3067/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3101/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3106/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-419/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-494/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-648/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-522/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-78/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-807/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-826/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-846/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-523/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1667,7 +1802,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-523/</loc>
+    <loc>https://gdst.dev/posts/LC-633/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1676,133 +1811,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC-3040/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-846/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2938/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-648/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-3067/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2929/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2981/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2982/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-260/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2597/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2831/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2225/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-78/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-826/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-2812/</loc>
+    <loc>https://gdst.dev/posts/LC-1673/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1830,15 +1839,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-1958/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-1673/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1892,42 +1892,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_24Feb/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_24Feb_p1/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_23Dec_p3/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_23Dec_p2/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/posts/LC_23Dec/</loc>
     
     <lastmod>2024-08-01</lastmod>
@@ -1946,7 +1910,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_24Mar/</loc>
+    <loc>https://gdst.dev/posts/LC_23Dec_p2/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1955,7 +1919,34 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_24Mar_p1/</loc>
+    <loc>https://gdst.dev/posts/LC_23Dec_p3/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_24Feb/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_24Feb_p1/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_24Feb_p2/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -1973,7 +1964,16 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/LC_24Feb_p2/</loc>
+    <loc>https://gdst.dev/posts/LC_24Mar_p1/</loc>
+    
+    <lastmod>2024-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_24Mar/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -2000,7 +2000,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/gallery/bocchi/index.html</loc>
+    <loc>https://gdst.dev/gallery/bocchi/</loc>
     
     <lastmod>2024-08-01</lastmod>
     
@@ -2027,7 +2027,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/index.html</loc>
+    <loc>https://gdst.dev/categories/</loc>
     
     <lastmod>2023-12-26</lastmod>
     
@@ -2036,7 +2036,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/index.html</loc>
+    <loc>https://gdst.dev/tags/</loc>
     
     <lastmod>2023-12-26</lastmod>
     
@@ -2070,14 +2070,21 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/AtCoder/</loc>
+    <loc>https://gdst.dev/tags/Python/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/Python/</loc>
+    <loc>https://gdst.dev/tags/Codeforces/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/AtCoder/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2141,13 +2148,6 @@
   
   <url>
     <loc>https://gdst.dev/tags/%E6%9C%89%E5%BA%8F%E5%AE%B9%E5%99%A8-Sorted-Container/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Codeforces/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2308,13 +2308,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/%E4%B8%AD%E4%BD%8D%E6%95%B8%E8%B2%AA%E5%BF%83/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%91-Shortest-Path/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2323,6 +2316,13 @@
   
   <url>
     <loc>https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-Dynamic-Programming/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E4%B8%AD%E4%BD%8D%E6%95%B8%E8%B2%AA%E5%BF%83/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2420,14 +2420,14 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/%E9%81%9E%E8%BF%B4-Recursion/</loc>
+    <loc>https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sort/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sort/</loc>
+    <loc>https://gdst.dev/tags/%E9%81%9E%E8%BF%B4-Recursion/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2609,6 +2609,13 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/tags/%E5%B7%AE%E5%88%86%E9%99%A3%E5%88%97-Difference-Array/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/tags/%E6%AD%B8%E7%B4%8D%E6%B3%95-Induction/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2616,7 +2623,28 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/%E5%B7%AE%E5%88%86%E9%99%A3%E5%88%97-Difference-Array/</loc>
+    <loc>https://gdst.dev/tags/UVA/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/CPE/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/CPE49/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E5%B9%BE%E4%BD%95%E8%88%87%E5%BA%A7%E6%A8%99/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2631,6 +2659,13 @@
   
   <url>
     <loc>https://gdst.dev/tags/BST/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97-Linked-List/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2679,13 +2714,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97-Linked-List/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/tags/%E5%B9%BE%E4%BD%95-Geometry/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2728,6 +2756,13 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/tags/%E6%95%B8%E8%AB%96-Number-Theory/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/tags/%E5%9C%96%E8%AB%96-Graph/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2750,34 +2785,6 @@
   
   <url>
     <loc>https://gdst.dev/tags/Binary-Tree/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/UVA/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/CPE/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/CPE49/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E5%B9%BE%E4%BD%95%E8%88%87%E5%BA%A7%E6%A8%99/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2819,6 +2826,20 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/tags/%E9%80%B2%E5%88%B6%E8%BD%89%E6%8F%9B/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/tags/%E5%BF%AB%E9%80%9F%E5%86%AA/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2839,42 +2860,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://gdst.dev/tags/%E9%80%B2%E5%88%B6%E8%BD%89%E6%8F%9B/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E6%95%B8%E8%AB%96-Number-Theory/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://gdst.dev/categories/AtCoder/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/categories/AtCoder/ABC/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://gdst.dev/categories/Codeforces/</loc>
@@ -2884,14 +2870,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/graduate/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/categories/LeetCode/</loc>
+    <loc>https://gdst.dev/categories/AtCoder/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2905,7 +2884,28 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/categories/graduate/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/categories/Codeforces/Div2/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/categories/LeetCode/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/categories/AtCoder/ABC/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2947,14 +2947,14 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/LeetCode/Medium/</loc>
+    <loc>https://gdst.dev/categories/UVA/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/</loc>
+    <loc>https://gdst.dev/categories/LeetCode/Medium/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2968,7 +2968,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/CPE/CPE-240521/</loc>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-240423/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3017,13 +3017,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/CPE/CPE-240423/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/categories/UVA/CPE/CPE-231212/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -3031,7 +3024,14 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/CPE/CPE-150526/</loc>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-240521/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-171219/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3052,13 +3052,6 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/CPE/CPE-171219/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/categories/UVA/CPE/CPE-161220/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -3066,7 +3059,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/UVA/CPE/CPE-120327/</loc>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-150526/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3088,6 +3081,13 @@
   
   <url>
     <loc>https://gdst.dev/categories/UVA/AOAPC-BAC/Ch6/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-120327/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
