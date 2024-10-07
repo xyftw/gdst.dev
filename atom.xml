@@ -37,11 +37,11 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="雙指標(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E6%A8%99-Two-Pointers/"/>
-    
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
     <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
+    
+    <category term="雙指標(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E6%A8%99-Two-Pointers/"/>
     
     <category term="字串(String)" scheme="https://gdst.dev/tags/%E5%AD%97%E4%B8%B2-String/"/>
     
@@ -68,9 +68,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
   </entry>
   
@@ -124,13 +124,13 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="雙指標(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E6%A8%99-Two-Pointers/"/>
-    
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
-    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
+    <category term="雙指標(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E6%A8%99-Two-Pointers/"/>
     
     <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
+    
+    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
     
   </entry>
   
@@ -157,9 +157,9 @@
     
     <category term="動態規劃(Dynamic Programming)" scheme="https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-Dynamic-Programming/"/>
     
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="記憶化搜索(Memoization)" scheme="https://gdst.dev/tags/%E8%A8%98%E6%86%B6%E5%8C%96%E6%90%9C%E7%B4%A2-Memoization/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
   </entry>
   
@@ -186,9 +186,9 @@
     
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
-    <category term="計數(Counting)" scheme="https://gdst.dev/tags/%E8%A8%88%E6%95%B8-Counting/"/>
-    
     <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
+    
+    <category term="計數(Counting)" scheme="https://gdst.dev/tags/%E8%A8%88%E6%95%B8-Counting/"/>
     
   </entry>
   
@@ -215,9 +215,9 @@
     
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
-    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
-    
     <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
+    
+    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
     
   </entry>
   
@@ -226,9 +226,9 @@
     <link href="https://gdst.dev/posts/LC_24Oct/"/>
     <id>https://gdst.dev/posts/LC_24Oct/</id>
     <published>2024-10-01T10:38:31.000Z</published>
-    <updated>2024-10-05T20:05:19.168Z</updated>
+    <updated>2024-10-07T17:31:33.688Z</updated>
     
-    <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為<mark class="hl-label default">中文站(LCCN)</mark> ，第2題為<mark class="hl-label default">英文站(LCUS)</mark> ，題目連結皆統一為英文站的題目連結。<br><mark class="hl-label green">Easy</mark> 、<mark class="hl-label orange">Medium</mark> 、<mark class="hl-label red">Hard</mark>  難度的題目分別用🟢🟡🔴表示。<br>若為周賽題目會額外標註由 <a href="https://zerotrac.github.io/leetcode_problem_rating/#/"><code>@zreotrac</code></a> 零神計算的rating分數。</p></div><div class="note purple icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>本篇文章只是作為目錄列出文章連結和題目清單，若要觀看詳細解題紀錄，請點擊文章連結，若沒有連結則表示因為各種因素，尚未寫該題的解題紀錄。</p></div><hr><h1 id="📚-2024-10-01-2024-10-10-每日一題">📚 2024/10/01-2024/10/10 每日一題</h1><h2 id="2024-10-01">2024/10/01</h2><ul><li>🟡 <a href="/posts/LC-983/">983. Minimum Cost For Tickets</a> <mark class="hl-label orange">1786</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li><li>🟡 <a href="/posts/LC-1497/">1497. Check If Array Pairs Are Divisible by k</a> <mark class="hl-label orange">1787</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-02">2024/10/02</h2><ul><li>🟡 1870. Minimum Speed to Arrive on Time <mark class="hl-label orange">1676</mark> </li><li>🟢 <a href="/posts/LC-1331/">1331. Rank Transform of an Array</a> <mark class="hl-label green">1356</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-03">2024/10/03</h2><ul><li>🔴 1928. Minimum Cost to Reach Destination in Time <mark class="hl-label red">2413</mark> </li><li>🟡 <a href="/posts/LC-1590/">1590. Make Sum Divisible by P</a> <mark class="hl-label orange">2039</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-04">2024/10/04</h2><ul><li>🟡 1227. Airplane Seat Assignment Probability</li><li>🟡 <a href="/posts/LC-2491/">2491. Divide Players Into Teams of Equal Skill</a> <mark class="hl-label orange">1323</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-05">2024/10/05</h2><ul><li>🟡 <a href="/posts/LC-2187/">2187. Minimum Time to Complete Trips</a> <mark class="hl-label orange">1641</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li><li>🟡 <a href="/posts/LC-567/">567. Permutation in String</a> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-06">2024/10/06</h2><ul><li>🟡 134. Gas Station</li></ul><h1 id="寫在最後">寫在最後</h1><div class="note purple icon-padding flat"><i class="note-icon fa-regular fa-calendar-check"></i><p>本月更新完成度： <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7</mn><mi mathvariant="normal">/</mi><mn>11</mn></mrow><annotation encoding="application/x-tex">7/11</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">7/11</span></span></span></span></p></div><p>⌛</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為<mark class="hl-label default">中文站(LCCN)</mark> ，第2題為<mark class="hl-label default">英文站(LCUS)</mark> ，題目連結皆統一為英文站的題目連結。<br><mark class="hl-label green">Easy</mark> 、<mark class="hl-label orange">Medium</mark> 、<mark class="hl-label red">Hard</mark>  難度的題目分別用🟢🟡🔴表示。<br>若為周賽題目會額外標註由 <a href="https://zerotrac.github.io/leetcode_problem_rating/#/"><code>@zreotrac</code></a> 零神計算的rating分數。</p></div><div class="note purple icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>本篇文章只是作為目錄列出文章連結和題目清單，若要觀看詳細解題紀錄，請點擊文章連結，若沒有連結則表示因為各種因素，尚未寫該題的解題紀錄。</p></div><hr><h1 id="📚-2024-10-01-2024-10-10-每日一題">📚 2024/10/01-2024/10/10 每日一題</h1><h2 id="2024-10-01">2024/10/01</h2><ul><li>🟡 <a href="/posts/LC-983/">983. Minimum Cost For Tickets</a> <mark class="hl-label orange">1786</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li><li>🟡 <a href="/posts/LC-1497/">1497. Check If Array Pairs Are Divisible by k</a> <mark class="hl-label orange">1787</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-02">2024/10/02</h2><ul><li>🟡 1870. Minimum Speed to Arrive on Time <mark class="hl-label orange">1676</mark> </li><li>🟢 <a href="/posts/LC-1331/">1331. Rank Transform of an Array</a> <mark class="hl-label green">1356</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-03">2024/10/03</h2><ul><li>🔴 1928. Minimum Cost to Reach Destination in Time <mark class="hl-label red">2413</mark> </li><li>🟡 <a href="/posts/LC-1590/">1590. Make Sum Divisible by P</a> <mark class="hl-label orange">2039</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-04">2024/10/04</h2><ul><li>🟡 1227. Airplane Seat Assignment Probability</li><li>🟡 <a href="/posts/LC-2491/">2491. Divide Players Into Teams of Equal Skill</a> <mark class="hl-label orange">1323</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-05">2024/10/05</h2><ul><li>🟡 <a href="/posts/LC-2187/">2187. Minimum Time to Complete Trips</a> <mark class="hl-label orange">1641</mark>  <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li><li>🟡 <a href="/posts/LC-567/">567. Permutation in String</a> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li></ul><h2 id="2024-10-06">2024/10/06</h2><ul><li>🟡 134. Gas Station</li><li>🟡 1813. Sentence Similarity III <mark class="hl-label orange">1589</mark> </li></ul><h2 id="2024-10-07">2024/10/07</h2><ul><li>🔴 871. Minimum Number of Refueling Stops <mark class="hl-label red">2074</mark> </li><li>🟢 2696. Minimum String Length After Removing Substrings <mark class="hl-label green">1282</mark> </li></ul><h2 id="2024-10-08">2024/10/08</h2><ul><li>🟢 1436. Destination City <mark class="hl-label green">1192</mark> </li></ul><h1 id="寫在最後">寫在最後</h1><div class="note purple icon-padding flat"><i class="note-icon fa-regular fa-calendar-check"></i><p>本月更新完成度： <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7</mn><mi mathvariant="normal">/</mi><mn>13</mn></mrow><annotation encoding="application/x-tex">7/13</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">7/13</span></span></span></span></p></div><p>⌛</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
     
     <summary type="html">A collection of LeetCode 2024/10 daily challenge.</summary>
@@ -302,13 +302,13 @@
     
     <category term="動態規劃(Dynamic Programming)" scheme="https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-Dynamic-Programming/"/>
     
-    <category term="字串(String)" scheme="https://gdst.dev/tags/%E5%AD%97%E4%B8%B2-String/"/>
-    
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="記憶化搜索(Memoization)" scheme="https://gdst.dev/tags/%E8%A8%98%E6%86%B6%E5%8C%96%E6%90%9C%E7%B4%A2-Memoization/"/>
     
     <category term="字典樹(Trie)" scheme="https://gdst.dev/tags/%E5%AD%97%E5%85%B8%E6%A8%B9-Trie/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
+    
+    <category term="字串(String)" scheme="https://gdst.dev/tags/%E5%AD%97%E4%B8%B2-String/"/>
     
   </entry>
   
@@ -335,9 +335,9 @@
     
     <category term="雜湊表(Hash Table)" scheme="https://gdst.dev/tags/%E9%9B%9C%E6%B9%8A%E8%A1%A8-Hash-Table/"/>
     
-    <category term="計數(Counting)" scheme="https://gdst.dev/tags/%E8%A8%88%E6%95%B8-Counting/"/>
-    
     <category term="字串(String)" scheme="https://gdst.dev/tags/%E5%AD%97%E4%B8%B2-String/"/>
+    
+    <category term="計數(Counting)" scheme="https://gdst.dev/tags/%E8%A8%88%E6%95%B8-Counting/"/>
     
   </entry>
   
@@ -364,9 +364,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="矩陣(Matrix)" scheme="https://gdst.dev/tags/%E7%9F%A9%E9%99%A3-Matrix/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
     <category term="鏈結串列(Linked List)" scheme="https://gdst.dev/tags/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97-Linked-List/"/>
     
@@ -422,11 +422,11 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
+    <category term="BFS" scheme="https://gdst.dev/tags/BFS/"/>
+    
     <category term="樹(Tree)" scheme="https://gdst.dev/tags/%E6%A8%B9-Tree/"/>
     
     <category term="二元樹(Binary Tree)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%85%83%E6%A8%B9-Binary-Tree/"/>
-    
-    <category term="BFS" scheme="https://gdst.dev/tags/BFS/"/>
     
     <category term="DFS" scheme="https://gdst.dev/tags/DFS/"/>
     
@@ -459,9 +459,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
   </entry>
   
@@ -488,11 +488,11 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
+    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
+    
     <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
     
     <category term="字串(String)" scheme="https://gdst.dev/tags/%E5%AD%97%E4%B8%B2-String/"/>
-    
-    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
     
   </entry>
   
@@ -546,9 +546,9 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
-    
     <category term="貪心(Greedy)" scheme="https://gdst.dev/tags/%E8%B2%AA%E5%BF%83-Greedy/"/>
+    
+    <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
   </entry>
   
@@ -573,15 +573,15 @@
     
     <category term="LeetCode" scheme="https://gdst.dev/tags/LeetCode/"/>
     
-    <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
+    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
     
-    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
+    <category term="滑動窗口(Sliding Window)" scheme="https://gdst.dev/tags/%E6%BB%91%E5%8B%95%E7%AA%97%E5%8F%A3-Sliding-Window/"/>
     
     <category term="陣列(Array)" scheme="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/"/>
     
-    <category term="雙指針(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E9%87%9D-Two-Pointers/"/>
+    <category term="排序(Sorting)" scheme="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/"/>
     
-    <category term="二分搜尋(Binary Search)" scheme="https://gdst.dev/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E5%B0%8B-Binary-Search/"/>
+    <category term="雙指針(Two Pointers)" scheme="https://gdst.dev/tags/%E9%9B%99%E6%8C%87%E9%87%9D-Two-Pointers/"/>
     
   </entry>
   
