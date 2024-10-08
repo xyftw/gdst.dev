@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/posts/LC-3171/</loc>
+    
+    <lastmod>2024-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-719/</loc>
+    
+    <lastmod>2024-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC-2696/</loc>
     
     <lastmod>2024-10-08</lastmod>
@@ -237,15 +255,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/LC-703/</loc>
-    
-    <lastmod>2024-08-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-719/</loc>
     
     <lastmod>2024-08-15</lastmod>
     
@@ -2900,6 +2909,13 @@
   
   <url>
     <loc>https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/</loc>
+    <lastmod>2024-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/LogTrick/</loc>
     <lastmod>2024-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

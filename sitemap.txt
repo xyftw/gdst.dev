@@ -1,4 +1,6 @@
 https://gdst.dev/posts/LC_24Oct/
+https://gdst.dev/posts/LC-3171/
+https://gdst.dev/posts/LC-719/
 https://gdst.dev/posts/LC-2696/
 https://gdst.dev/posts/LC-1331/
 https://gdst.dev/posts/LC-1963/
@@ -25,7 +27,6 @@ https://gdst.dev/posts/LC-1509/
 https://gdst.dev/posts/LC_24Jul/
 https://gdst.dev/posts/LC-3151/
 https://gdst.dev/posts/LC-703/
-https://gdst.dev/posts/LC-719/
 https://gdst.dev/posts/LC-2045/
 https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_W375/
@@ -346,6 +347,7 @@ https://gdst.dev/tags/%E5%BF%AB%E9%80%9F%E5%86%AA/
 https://gdst.dev/tags/%E7%9F%A9%E9%99%A3%E5%BF%AB%E9%80%9F%E5%86%AA/
 https://gdst.dev/tags/%E7%B5%84%E5%90%88%E6%95%B8%E5%AD%B8/
 https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/
+https://gdst.dev/tags/LogTrick/
 https://gdst.dev/categories/AtCoder/
 https://gdst.dev/categories/AtCoder/ABC/
 https://gdst.dev/categories/Codeforces/
