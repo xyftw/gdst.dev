@@ -1,3 +1,4 @@
+https://gdst.dev/about/
 https://gdst.dev/posts/LC_24Oct/
 https://gdst.dev/posts/LC-3151/
 https://gdst.dev/posts/LC-724/
@@ -120,7 +121,6 @@ https://gdst.dev/posts/LC-1579/
 https://gdst.dev/posts/LC-330/
 https://gdst.dev/posts/LC-410/
 https://gdst.dev/posts/CF_1899/
-https://gdst.dev/about/
 https://gdst.dev/gallery/kaguya/
 https://gdst.dev/gallery/ina/
 https://gdst.dev/gallery/pekora/
