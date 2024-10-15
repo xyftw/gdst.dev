@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gdst.dev/posts/UVA-10539/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC-3200/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/UVA-11624/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC_24Oct/</loc>
     
     <lastmod>2024-10-15</lastmod>
@@ -32,15 +59,6 @@
     <loc>https://gdst.dev/posts/LC-1963/</loc>
     
     <lastmod>2024-10-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC-3200/</loc>
-    
-    <lastmod>2024-10-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -660,15 +678,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/UVA-442/</loc>
-    
-    <lastmod>2024-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/UVA-11624/</loc>
     
     <lastmod>2024-10-10</lastmod>
     
@@ -2948,6 +2957,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://gdst.dev/tags/%E5%9F%83%E6%B0%8F%E7%AF%A9-Sieve-of-Eratosthenes/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -3183,6 +3199,13 @@
   
   <url>
     <loc>https://gdst.dev/categories/UVA/AOAPC-BAC/Ch3/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/categories/UVA/CPE/CPE-241015/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
