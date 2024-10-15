@@ -1,3 +1,4 @@
+https://gdst.dev/posts/UVA-10107/
 https://gdst.dev/posts/UVA-10110/
 https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/LC-3200/
@@ -389,3 +390,5 @@ https://gdst.dev/categories/UVA/CPE/CPE-171219/
 https://gdst.dev/categories/UVA/AOAPC-BAC/Ch8/
 https://gdst.dev/categories/UVA/AOAPC-BAC/Ch3/
 https://gdst.dev/categories/UVA/CPE/CPE-241015/
+https://gdst.dev/categories/UVA/CPE/CPE-101011/
+https://gdst.dev/categories/UVA/AOAPC-BAC/Ch10/
