@@ -1,4 +1,5 @@
 https://gdst.dev/posts/LC_24Oct/
+https://gdst.dev/posts/LC-2406/
 https://gdst.dev/posts/LC-2530/
 https://gdst.dev/posts/LC-1963/
 https://gdst.dev/posts/LC-3200/
