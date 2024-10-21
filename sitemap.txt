@@ -1,3 +1,5 @@
+https://gdst.dev/posts/LC_24Oct/
+https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/CF_1899/
 https://gdst.dev/posts/CF_1907/
 https://gdst.dev/posts/CF_1903/
@@ -49,7 +51,6 @@ https://gdst.dev/posts/LC_W374/
 https://gdst.dev/posts/LC_B120/
 https://gdst.dev/posts/LC_B118/
 https://gdst.dev/posts/UVA-10355/
-https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/LC_W375/
 https://gdst.dev/posts/LC_B119/
 https://gdst.dev/posts/LC_W373/
@@ -229,7 +230,6 @@ https://gdst.dev/posts/LC_24Aug/
 https://gdst.dev/posts/LC_24Jul/
 https://gdst.dev/posts/LC_24Jun/
 https://gdst.dev/posts/LC_24May/
-https://gdst.dev/posts/LC_24Oct/
 https://gdst.dev/about/
 https://gdst.dev/posts/LC-350/
 https://gdst.dev/posts/LC-W402/
