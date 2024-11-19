@@ -1,4 +1,6 @@
+https://gdst.dev/posts/ATC_ABC380/
 https://gdst.dev/posts/ATC_ABC378/
+https://gdst.dev/posts/LC_24Sep/
 https://gdst.dev/posts/ATC_ABC356/
 https://gdst.dev/posts/LC_24Oct/
 https://gdst.dev/posts/LC-3184/
@@ -227,7 +229,6 @@ https://gdst.dev/posts/LC_23Nov/
 https://gdst.dev/posts/LC_23Dec/
 https://gdst.dev/posts/LC_23Dec_p2/
 https://gdst.dev/posts/LC_23Dec_p1/
-https://gdst.dev/posts/LC_24Sep/
 https://gdst.dev/posts/LC_24Feb_p2/
 https://gdst.dev/posts/LC_24Feb/
 https://gdst.dev/posts/LC_24Feb_p1/
