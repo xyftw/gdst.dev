@@ -1,3 +1,4 @@
+https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/ATC_ABC380/
 https://gdst.dev/posts/LC-W402/
 https://gdst.dev/posts/LC-2463/
@@ -32,7 +33,6 @@ https://gdst.dev/posts/LC-684/
 https://gdst.dev/posts/LC-685/
 https://gdst.dev/posts/LC-3171/
 https://gdst.dev/posts/LC-1405/
-https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/CF_1899/
 https://gdst.dev/posts/CF_1907/
 https://gdst.dev/posts/CF_1903/
