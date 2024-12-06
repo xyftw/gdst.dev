@@ -1,3 +1,5 @@
+https://gdst.dev/about/
+https://gdst.dev/posts/UVA-10041/
 https://gdst.dev/posts/UVA-10539/
 https://gdst.dev/posts/ATC_ABC380/
 https://gdst.dev/posts/LC-W402/
@@ -43,7 +45,6 @@ https://gdst.dev/posts/ATC_ABC317/
 https://gdst.dev/posts/UVA-11349/
 https://gdst.dev/posts/UVA-10093/
 https://gdst.dev/posts/UVA-10908/
-https://gdst.dev/posts/UVA-10041/
 https://gdst.dev/posts/UVA-11498/
 https://gdst.dev/posts/UVA-10242/
 https://gdst.dev/posts/UVA-11624/
@@ -241,7 +242,6 @@ https://gdst.dev/posts/LC_24Aug/
 https://gdst.dev/posts/LC_24Jul/
 https://gdst.dev/posts/LC_24Jun/
 https://gdst.dev/posts/LC_24May/
-https://gdst.dev/about/
 https://gdst.dev/posts/LC-350/
 https://gdst.dev/gallery/fauna/
 https://gdst.dev/gallery/ina/
