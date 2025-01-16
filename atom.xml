@@ -551,9 +551,9 @@
     
     <category term="CPE" scheme="https://gdst.dev/categories/UVA/CPE/"/>
     
-    <category term="CPE-241015" scheme="https://gdst.dev/categories/UVA/CPE/CPE-241015/"/>
-    
     <category term="CPE49" scheme="https://gdst.dev/categories/UVA/CPE/CPE49/"/>
+    
+    <category term="CPE-241015" scheme="https://gdst.dev/categories/UVA/CPE/CPE-241015/"/>
     
     <category term="CPE-110927" scheme="https://gdst.dev/categories/UVA/CPE/CPE-110927/"/>
     
@@ -588,9 +588,9 @@
     
     <category term="AOAPC-BAC" scheme="https://gdst.dev/categories/UVA/AOAPC-BAC/"/>
     
-    <category term="CPE-241015" scheme="https://gdst.dev/categories/UVA/CPE/CPE-241015/"/>
-    
     <category term="Ch10" scheme="https://gdst.dev/categories/UVA/AOAPC-BAC/Ch10/"/>
+    
+    <category term="CPE-241015" scheme="https://gdst.dev/categories/UVA/CPE/CPE-241015/"/>
     
     <category term="CPE-101011" scheme="https://gdst.dev/categories/UVA/CPE/CPE-101011/"/>
     
