@@ -1,0 +1,488 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄 | 十六個天亮</title><meta name="author" content="SayA"><meta name="copyright" content="SayA"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="A collection of LeetCode 2024&#x2F;07 daily challenge.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LeetCode 2024&#x2F;07 每日一題 (July LeetCoding Challenge) 目錄">
+<meta property="og:url" content="https://gdst.dev/posts/LC_24Jul/">
+<meta property="og:site_name" content="十六個天亮">
+<meta property="og:description" content="A collection of LeetCode 2024&#x2F;07 daily challenge.">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.gdst.dev/sd/pekora/720653855664281892.jpg">
+<meta property="article:published_time" content="2024-07-01T02:44:13.000Z">
+<meta property="article:modified_time" content="2024-10-20T13:53:49.332Z">
+<meta property="article:author" content="SayA">
+<meta property="article:tag" content="LeetCode">
+<meta property="article:tag" content="每日一題">
+<meta property="article:tag" content="Daily">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.gdst.dev/sd/pekora/720653855664281892.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄",
+  "url": "https://gdst.dev/posts/LC_24Jul/",
+  "image": "https://i.gdst.dev/sd/pekora/720653855664281892.jpg",
+  "datePublished": "2024-07-01T02:44:13.000Z",
+  "dateModified": "2024-10-20T13:53:49.332Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "SayA",
+      "url": "https://gdst.dev/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/imgs/icon_SA_192x912.png"><link rel="canonical" href="https://gdst.dev/posts/LC_24Jul/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 12 || hour >= 12
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-4VKFM9RYWW"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'G-4VKFM9RYWW')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'G-4VKFM9RYWW', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;82a28d784b954ba1bd0a419052553971&quot;}"></script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '複製成功',
+    error: '複製失敗',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: SayA","link":"連結: ","source":"來源: 十六個天亮","info":"著作權歸作者所有。如需商業轉載，請聯絡作者獲得授權，非商業轉載請註明出處。"}},
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄',
+  isHighlightShrink: true,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/simple-icons.css"><meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="十六個天亮" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="十六個天亮" type="application/rss+xml">
+</head><body><div id="web_bg" style="background-image: url(url(https://i.gdst.dev/booth/aiartstock/Nature2/02_2304x1152/nature2_357-2.webp));"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/imgs/profile2.png" onerror="this.onerror=null;this.src='/imgs/404_friend.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">246</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">127</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">38</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 時間軸</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/talking/"><i class="fa-fw fa-fw fa fa-leaf"></i><span> 說說</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fa-fw fas fa-images"></i><span> 圖庫</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://i.gdst.dev/sd/pekora/720653855664281892.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十六個天亮</span></a><a class="nav-page-title" href="/"><span class="site-name">LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 時間軸</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/talking/"><i class="fa-fw fa-fw fa fa-leaf"></i><span> 說說</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fa-fw fas fa-images"></i><span> 圖庫</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2024-07-01T02:44:13.000Z" title="發表於 2024-07-01 10:44:13">2024-07-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2024-10-20T13:53:49.332Z" title="更新於 2024-10-20 21:53:49">2024-10-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LeetCode/">LeetCode</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LeetCode/Daily/">Daily</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">總字數:</span><span class="word-count">684</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀時間:</span><span>3分鐘</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">瀏覽量:</span><span class="waline-pageview-count" data-path="/posts/LC_24Jul/"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為<mark class="hl-label default">中文站(LCCN)</mark>，第2題為<mark class="hl-label default">英文站(LCUS)</mark>，題目連結皆統一為英文站的題目連結。<br>
+<mark class="hl-label green">Easy</mark>、<mark class="hl-label orange">Medium</mark>、<mark class="hl-label red">Hard</mark> 難度的題目分別用🟢🟡🔴表示。<br>
+若為周賽題目會額外標註由 <a target="_blank" rel="noopener" href="https://zerotrac.github.io/leetcode_problem_rating/#/"><code>@zreotrac</code></a> 零神計算的rating分數。</p>
+</div>
+<div class="note purple icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>本篇文章只是作為目錄列出文章連結和題目清單，若要觀看詳細解題紀錄，請點擊文章連結，若沒有連結則表示因為各種因素，尚未寫該題的解題紀錄。</p>
+</div>
+<hr>
+<h1 id="📚-2024-07-01-2024-07-10-每日一題">📚 2024/07/01-2024/07/10 每日一題</h1>
+<h2 id="2024-07-01">2024/07/01</h2>
+<ul>
+<li>🔴 <a href="/posts/LC-2065/">2065. Maximum Path Quality of a Graph</a> <mark class="hl-label red">2178</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟢 <a href="/posts/LC-1550/">1550. Three Consecutive Odds</a> <mark class="hl-label green">1222</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-02">2024/07/02</h2>
+<ul>
+<li>🟡 3115. Maximum Prime Difference <mark class="hl-label orange">1294</mark></li>
+<li>🟢 <a href="/posts/LC-350/">350. Intersection of Two Arrays II</a> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-03">2024/07/03</h2>
+<ul>
+<li>🟢 <a href="/posts/LC-3099/">3099. Harshad Number</a> <mark class="hl-label green">1101</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-1509/">1509. Minimum Difference Between Largest and Smallest Value in Three Moves</a> <mark class="hl-label orange">1653</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-04">2024/07/04</h2>
+<ul>
+<li>🔴 3086. Minimum Moves to Pick K Ones <mark class="hl-label red">2673</mark></li>
+<li>🟡 <a href="/posts/LC-2181/">2181. Merge Nodes in Between Zeros</a> <mark class="hl-label orange">1333</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-05">2024/07/05</h2>
+<ul>
+<li>🟢 <a href="/posts/LC-3033/">3033. Modify the Matrix</a> <mark class="hl-label green">1181</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-2058/">2058. Find the Minimum and Maximum Number of Nodes Between Critical Points</a> <mark class="hl-label orange">1311</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-06">2024/07/06</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-3101/">3101. Count Alternating Subarrays</a> <mark class="hl-label orange">1405</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟢 <a href="/posts/LC-2582/">2582. Pass the Pillow</a> <mark class="hl-label green">1278</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-07">2024/07/07</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-1958/">1958. Check if Move is Legal</a> <mark class="hl-label orange">1659</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟢 <a href="/posts/LC-1518/">1518. Water Bottles</a> <mark class="hl-label green">1245</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-08">2024/07/08</h2>
+<ul>
+<li>🟢 <a href="/posts/LC-724/">724. Find Pivot Index</a> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-1823/">1823. Find the Winner of the Circular Game</a> <mark class="hl-label orange">1412</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-09">2024/07/09</h2>
+<ul>
+<li>🔴 3102. Minimize Manhattan Distances <mark class="hl-label red">2216</mark></li>
+<li>🟡 <a href="/posts/LC-1701/">1701. Average Waiting Time</a> <mark class="hl-label orange">1436</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-10">2024/07/10</h2>
+<ul>
+<li>🟢 2970. Count the Number of Incremovable Subarrays I <mark class="hl-label green">1563</mark></li>
+<li>🟢 <a href="/posts/LC-1598/">1598. Crawler Log Folder</a> <mark class="hl-label green">1297</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h1 id="📚-2024-07-01-2024-07-10-每日一題-2">📚 2024/07/01-2024/07/10 每日一題</h1>
+<h2 id="2024-07-11">2024/07/11</h2>
+<ul>
+<li>🔴 2972. Count the Number of Incremovable Subarrays II <mark class="hl-label red">2153</mark></li>
+<li>🟡 1190. Reverse Substrings Between Each Pair of Parentheses <mark class="hl-label orange">1486</mark></li>
+</ul>
+<h2 id="2024-07-12">2024/07/12</h2>
+<ul>
+<li>🟢 <a href="/posts/LC-2974/">2974. Minimum Number Game</a> <mark class="hl-label green">1185</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-1717/">1717. Maximum Score From Removing Substrings</a> <mark class="hl-label orange">1868</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-13">2024/07/13</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-3011/">3011. Find if Array Can Be Sorted</a> <mark class="hl-label orange">1497</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🔴 <a href="/posts/LC-2751/">2751. Robot Collisions</a> <mark class="hl-label red">2092</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-14">2024/07/14</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-807/">807. Max Increase to Keep City Skyline</a> <mark class="hl-label orange">1376</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🔴 <a href="/posts/LC-726/">726. Number of Atoms</a> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-15">2024/07/15</h2>
+<ul>
+<li>🟡 721. Accounts Merge</li>
+<li>🟡 <a href="/posts/LC-2196/">2196. Create Binary Tree From Descriptions</a> <mark class="hl-label orange">1644</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-16">2024/07/16</h2>
+<ul>
+<li>🟢 <a href="/posts/LC-2956/">2956. Find Common Elements Between Two Arrays</a> <mark class="hl-label green">1215</mark></li>
+<li>🟡 2096. Step-By-Step Directions From a Binary Tree Node to Another <mark class="hl-label orange">1805</mark></li>
+</ul>
+<h2 id="2024-07-17">2024/07/17</h2>
+<ul>
+<li>🔴 <a href="/posts/LC-2959/">2959. Number of Possible Sets of Closing Branches</a> <mark class="hl-label red">2077</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-1110/">1110. Delete Nodes And Return Forest</a> <mark class="hl-label orange">1511</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-18">2024/07/18</h2>
+<ul>
+<li>🟡 3112. Minimum Time to Visit Disappearing Nodes <mark class="hl-label orange">1757</mark></li>
+<li>🟡 1530. Number of Good Leaf Nodes Pairs <mark class="hl-label orange">1746</mark></li>
+</ul>
+<h2 id="2024-07-19">2024/07/19</h2>
+<ul>
+<li>🟡 3096. Minimum Levels to Gain More Points <mark class="hl-label orange">1501</mark></li>
+<li>🟢 1380. Lucky Numbers in a Matrix <mark class="hl-label green">1208</mark></li>
+</ul>
+<h2 id="2024-07-20">2024/07/20</h2>
+<ul>
+<li>🟡 2850. Minimum Moves to Spread Stones Over Grid <mark class="hl-label orange">2001</mark></li>
+<li>🟡 1605. Find Valid Matrix Given Row and Column Sums <mark class="hl-label orange">1868</mark></li>
+</ul>
+<h2 id="2024-07-21">2024/07/21</h2>
+<ul>
+<li>🟡 1186. Maximum Subarray Sum with One Deletion <mark class="hl-label orange">1799</mark></li>
+<li>🔴 <a href="/posts/LC-2392/">2392. Build a Matrix With Conditions</a> <mark class="hl-label red">1961</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-22">2024/07/22</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-2101/">2101. Detonate the Maximum Bombs</a> <mark class="hl-label orange">1880</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟢 <a href="/posts/LC-2418/">2418. Sort the People</a> <mark class="hl-label green">1193</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-23">2024/07/23</h2>
+<ul>
+<li>🔴 3098. Find the Sum of Subsequence Powers <mark class="hl-label red">2553</mark></li>
+<li>🟢 1636. Sort Array by Increasing Frequency <mark class="hl-label green">1430</mark></li>
+</ul>
+<h2 id="2024-07-24">2024/07/24</h2>
+<ul>
+<li>🟡 2766. Relocate Marbles <mark class="hl-label orange">1613</mark></li>
+<li>🟡 2191. Sort the Jumbled Numbers <mark class="hl-label orange">1496</mark></li>
+</ul>
+<h2 id="2024-07-25">2024/07/25</h2>
+<ul>
+<li>🟡 2844. Minimum Operations to Make a Special Number <mark class="hl-label orange">1588</mark></li>
+<li>🟡 912. Sort an Array</li>
+</ul>
+<h2 id="2024-07-26">2024/07/26</h2>
+<ul>
+<li>🟡 2740. Find the Value of the Partition <mark class="hl-label orange">1302</mark></li>
+<li>🟡 1605. Find Valid Matrix Given Row and Column Sums <mark class="hl-label orange">1868</mark></li>
+</ul>
+<h2 id="2024-07-27">2024/07/27</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-3106/">3106. Lexicographically Smallest String After Operations With Constraint</a> <mark class="hl-label orange">1515</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-2976/">2976. Minimum Cost to Convert String I</a> <mark class="hl-label orange">1882</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-28">2024/07/28</h2>
+<ul>
+<li>🔴 699. Falling Squares</li>
+<li>🔴 <a href="/posts/LC-2045/">2045. Second Minimum Time to Reach Destination</a> <mark class="hl-label red">2202</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-29">2024/07/29</h2>
+<ul>
+<li>🟢 682. Baseball Game</li>
+<li>🟡 1395. Count Number of Teams <mark class="hl-label orange">1344</mark></li>
+</ul>
+<h2 id="2024-07-30">2024/07/30</h2>
+<ul>
+<li>🟡 <a href="/posts/LC-2961/">2961. Double Modular Exponentiation</a> <mark class="hl-label orange">1451</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+<li>🟡 <a href="/posts/LC-1653/">1653. Minimum Deletions to Make String Balanced</a> <mark class="hl-label orange">1793</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h2 id="2024-07-31">2024/07/31</h2>
+<ul>
+<li>🟡 3111. Minimum Rectangles to Cover Points <mark class="hl-label orange">1401</mark></li>
+<li>🟡 <a href="/posts/LC-1105/">1105. Filling Bookcase Shelves</a> <mark class="hl-label orange">2014</mark> <span style="color: Green;"><i class="fa-solid fa-check"></i></span></li>
+</ul>
+<h1 id="寫在最後">寫在最後</h1>
+<div class="note purple icon-padding flat"><i class="note-icon fa-regular fa-calendar-check"></i><p>本月更新完成度： <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>34</mn><mi mathvariant="normal">/</mi><mn>62</mn></mrow><annotation encoding="application/x-tex">34/62</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">34/62</span></span></span></span></p>
+</div>
+<p>⌛</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://gdst.dev">SayA</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://gdst.dev/posts/LC_24Jul/">https://gdst.dev/posts/LC_24Jul/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://gdst.dev" target="_blank">十六個天亮</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/LeetCode/">LeetCode</a><a class="post-meta__tags" href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C/">每日一題</a><a class="post-meta__tags" href="/tags/Daily/">Daily</a></div><div class="post-share"><div class="social-share" data-image="https://i.gdst.dev/sd/pekora/720653855664281892.jpg" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/LC_24Oct/" title="LeetCode 2024&#x2F;10 每日一題 (October LeetCoding Challenge) 目錄"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/780243675038015957.webp" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="fas fa-history fa-fw"></i> 2025-01-16</div><div class="info-item-2">LeetCode 2024&#x2F;10 每日一題 (October LeetCoding Challenge) 目錄</div></div><div class="info-2"><div class="info-item-1">A collection of LeetCode 2024/10 daily challenge.</div></div></div></a><a class="pagination-related" href="/posts/LC_24Sep/" title="LeetCode 2024&#x2F;09 每日一題 (September LeetCoding Challenge) 目錄"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/768333352768905397.webp" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="fas fa-history fa-fw"></i> 2024-11-19</div><div class="info-item-2">LeetCode 2024&#x2F;09 每日一題 (September LeetCoding Challenge) 目錄</div></div><div class="info-2"><div class="info-item-1">A collection of LeetCode 2024/09 daily challenge.</div></div></div></a><a class="pagination-related" href="/posts/LC_24Aug/" title="LeetCode 2024&#x2F;08 每日一題 (August LeetCoding Challenge) 目錄"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/vt/Rushia/742993496694222496.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="fas fa-history fa-fw"></i> 2024-10-20</div><div class="info-item-2">LeetCode 2024&#x2F;08 每日一題 (August LeetCoding Challenge) 目錄</div></div><div class="info-2"><div class="info-item-1">A collection of LeetCode 2024/08 daily challenge.</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 評論</span></div><div class="comment-switch"><span class="first-comment">Waline</span><span id="switch-btn"></span><span class="second-comment">Giscus</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/imgs/profile2.png" onerror="this.onerror=null;this.src='/imgs/404_friend.gif'" alt="avatar"/></div><div class="author-info-name">SayA</div><div class="author-info-description">你說的對，但是我孤單刷題。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">246</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">127</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">38</div></a></div><a id="card-info-btn" href="/atom.xml"><i class="fas fa-rss"></i><span>Subscribe</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/xyftw" target="_blank" title="Github"><i class="fab fa-github" style="color: `#404040`;"></i></a><a class="social-icon" href="https://leetcode.com/gdstw/" target="_blank" title="LeetCode"><i class="icon--simple-icons icon--simple-icons--leetcode" style="color: `#404040`;"></i></a><a class="social-icon" href="https://t.me/usayame" target="_blank" title="Telegram"><i class="icon--simple-icons icon--simple-icons--telegram" style="color: `#404040`;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">🌐主站：<a href="https://gdst.dev/">gdst.dev</a> (hosted by <i class="fa-brands fa-github"></i> )<br>🪐鏡像：<a target="_blank" rel="noopener" href="https://saya.ing/">saya.ing</a> (hosted by <i class="fa-brands fa-cloudflare"></i> )<br>平凡人的刷題日常。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%93%9A-2024-07-01-2024-07-10-%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C"><span class="toc-text">📚 2024&#x2F;07&#x2F;01-2024&#x2F;07&#x2F;10 每日一題</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-01"><span class="toc-text">2024&#x2F;07&#x2F;01</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-02"><span class="toc-text">2024&#x2F;07&#x2F;02</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-03"><span class="toc-text">2024&#x2F;07&#x2F;03</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-04"><span class="toc-text">2024&#x2F;07&#x2F;04</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-05"><span class="toc-text">2024&#x2F;07&#x2F;05</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-06"><span class="toc-text">2024&#x2F;07&#x2F;06</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-07"><span class="toc-text">2024&#x2F;07&#x2F;07</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-08"><span class="toc-text">2024&#x2F;07&#x2F;08</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-09"><span class="toc-text">2024&#x2F;07&#x2F;09</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-10"><span class="toc-text">2024&#x2F;07&#x2F;10</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%93%9A-2024-07-01-2024-07-10-%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C-2"><span class="toc-text">📚 2024&#x2F;07&#x2F;01-2024&#x2F;07&#x2F;10 每日一題</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-11"><span class="toc-text">2024&#x2F;07&#x2F;11</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-12"><span class="toc-text">2024&#x2F;07&#x2F;12</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-13"><span class="toc-text">2024&#x2F;07&#x2F;13</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-14"><span class="toc-text">2024&#x2F;07&#x2F;14</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-15"><span class="toc-text">2024&#x2F;07&#x2F;15</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-16"><span class="toc-text">2024&#x2F;07&#x2F;16</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-17"><span class="toc-text">2024&#x2F;07&#x2F;17</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-18"><span class="toc-text">2024&#x2F;07&#x2F;18</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-19"><span class="toc-text">2024&#x2F;07&#x2F;19</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-20"><span class="toc-text">2024&#x2F;07&#x2F;20</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-21"><span class="toc-text">2024&#x2F;07&#x2F;21</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-22"><span class="toc-text">2024&#x2F;07&#x2F;22</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-23"><span class="toc-text">2024&#x2F;07&#x2F;23</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-24"><span class="toc-text">2024&#x2F;07&#x2F;24</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-25"><span class="toc-text">2024&#x2F;07&#x2F;25</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-26"><span class="toc-text">2024&#x2F;07&#x2F;26</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-27"><span class="toc-text">2024&#x2F;07&#x2F;27</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-28"><span class="toc-text">2024&#x2F;07&#x2F;28</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-29"><span class="toc-text">2024&#x2F;07&#x2F;29</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-30"><span class="toc-text">2024&#x2F;07&#x2F;30</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2024-07-31"><span class="toc-text">2024&#x2F;07&#x2F;31</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%AB%E5%9C%A8%E6%9C%80%E5%BE%8C"><span class="toc-text">寫在最後</span></a></li></ol></div></div><div class="card-widget card-post-series"><div class="item-headline"><i class="fa-solid fa-layer-group"></i><span>系列文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Oct/" title="LeetCode 2024/10 每日一題 (October LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/780243675038015957.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/10 每日一題 (October LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Oct/" title="LeetCode 2024/10 每日一題 (October LeetCoding Challenge) 目錄">LeetCode 2024/10 每日一題 (October LeetCoding Challenge) 目錄</a><time datetime="2024-10-01T10:38:31.000Z" title="發表於 2024-10-01 18:38:31">2024-10-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Sep/" title="LeetCode 2024/09 每日一題 (September LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/768333352768905397.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/09 每日一題 (September LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Sep/" title="LeetCode 2024/09 每日一題 (September LeetCoding Challenge) 目錄">LeetCode 2024/09 每日一題 (September LeetCoding Challenge) 目錄</a><time datetime="2024-09-01T15:08:29.000Z" title="發表於 2024-09-01 23:08:29">2024-09-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Aug/" title="LeetCode 2024/08 每日一題 (August LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/vt/Rushia/742993496694222496.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/08 每日一題 (August LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Aug/" title="LeetCode 2024/08 每日一題 (August LeetCoding Challenge) 目錄">LeetCode 2024/08 每日一題 (August LeetCoding Challenge) 目錄</a><time datetime="2024-08-01T14:13:35.000Z" title="發表於 2024-08-01 22:13:35">2024-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Jul/" title="LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/sd/pekora/720653855664281892.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Jul/" title="LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄">LeetCode 2024/07 每日一題 (July LeetCoding Challenge) 目錄</a><time datetime="2024-07-01T02:44:13.000Z" title="發表於 2024-07-01 10:44:13">2024-07-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Jun/" title="LeetCode 2024/06 每日一題 (️June LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/sd/ina/718488547901845772.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/06 每日一題 (️June LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Jun/" title="LeetCode 2024/06 每日一題 (️June LeetCoding Challenge) 目錄">LeetCode 2024/06 每日一題 (️June LeetCoding Challenge) 目錄</a><time datetime="2024-06-01T09:44:13.000Z" title="發表於 2024-06-01 17:44:13">2024-06-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24May/" title="LeetCode 2024/05 每日一題 (May LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/sd/Mumei/718481757558751101.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/05 每日一題 (May LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24May/" title="LeetCode 2024/05 每日一題 (May LeetCoding Challenge) 目錄">LeetCode 2024/05 每日一題 (May LeetCoding Challenge) 目錄</a><time datetime="2024-05-15T04:00:00.000Z" title="發表於 2024-05-15 12:00:00">2024-05-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Mar/" title="LeetCode 2024/03 每日一題 (Mar LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/sd/miko/700726066404221442.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/03 每日一題 (Mar LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Mar/" title="LeetCode 2024/03 每日一題 (Mar LeetCoding Challenge) 目錄">LeetCode 2024/03 每日一題 (Mar LeetCoding Challenge) 目錄</a><time datetime="2024-03-03T04:00:00.000Z" title="發表於 2024-03-03 12:00:00">2024-03-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC_24Feb/" title="LeetCode 2024/02 每日一題 (Feb LeetCoding Challenge) 目錄"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/sd/miko/677683734364998766.jpg" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 2024/02 每日一題 (Feb LeetCoding Challenge) 目錄"></a><div class="content"><a class="title" href="/posts/LC_24Feb/" title="LeetCode 2024/02 每日一題 (Feb LeetCoding Challenge) 目錄">LeetCode 2024/02 每日一題 (Feb LeetCoding Challenge) 目錄</a><time datetime="2024-02-04T04:00:00.000Z" title="發表於 2024-02-04 12:00:00">2024-02-04</time></div></div></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/ATC_ABC388/" title="AtCoder Beginner Contest 388 解題紀錄 (A - G)"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/801511399604895872.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="AtCoder Beginner Contest 388 解題紀錄 (A - G)"/></a><div class="content"><a class="title" href="/posts/ATC_ABC388/" title="AtCoder Beginner Contest 388 解題紀錄 (A - G)">AtCoder Beginner Contest 388 解題紀錄 (A - G)</a><time datetime="2025-01-15T10:29:11.000Z" title="發表於 2025-01-15 18:29:11">2025-01-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/ATC_ABC380/" title="AtCoder Beginner Contest 380 解題紀錄 (A - F)"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/797505938874672020.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="AtCoder Beginner Contest 380 解題紀錄 (A - F)"/></a><div class="content"><a class="title" href="/posts/ATC_ABC380/" title="AtCoder Beginner Contest 380 解題紀錄 (A - F)">AtCoder Beginner Contest 380 解題紀錄 (A - F)</a><time datetime="2024-11-18T03:56:37.000Z" title="發表於 2024-11-18 11:56:37">2024-11-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/ATC_ABC378/" title="AtCoder Beginner Contest 378 解題紀錄 (A - F)"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/787150785608741069.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="AtCoder Beginner Contest 378 解題紀錄 (A - F)"/></a><div class="content"><a class="title" href="/posts/ATC_ABC378/" title="AtCoder Beginner Contest 378 解題紀錄 (A - F)">AtCoder Beginner Contest 378 解題紀錄 (A - F)</a><time datetime="2024-11-04T14:02:27.000Z" title="發表於 2024-11-04 22:02:27">2024-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC-3185/" title="LeetCode 🟡 3185. Count Pairs That Form a Complete Day II"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/788800770310074239.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 🟡 3185. Count Pairs That Form a Complete Day II"/></a><div class="content"><a class="title" href="/posts/LC-3185/" title="LeetCode 🟡 3185. Count Pairs That Form a Complete Day II">LeetCode 🟡 3185. Count Pairs That Form a Complete Day II</a><time datetime="2024-10-31T07:17:49.000Z" title="發表於 2024-10-31 15:17:49">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC-3184/" title="LeetCode 🟢 3184. Count Pairs That Form a Complete Day I"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/works/787677803865893352.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 🟢 3184. Count Pairs That Form a Complete Day I"/></a><div class="content"><a class="title" href="/posts/LC-3184/" title="LeetCode 🟢 3184. Count Pairs That Form a Complete Day I">LeetCode 🟢 3184. Count Pairs That Form a Complete Day I</a><time datetime="2024-10-31T07:17:43.000Z" title="發表於 2024-10-31 15:17:43">2024-10-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/LC-2463/" title="LeetCode 🔴 2463. Minimum Total Distance Traveled"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.gdst.dev/remix/787974710660148969.webp" onerror="this.onerror=null;this.src='/imgs/404_img.jpg'" alt="LeetCode 🔴 2463. Minimum Total Distance Traveled"/></a><div class="content"><a class="title" href="/posts/LC-2463/" title="LeetCode 🔴 2463. Minimum Total Distance Traveled">LeetCode 🔴 2463. Minimum Total Distance Traveled</a><time datetime="2024-10-31T04:59:44.000Z" title="發表於 2024-10-31 12:59:44">2024-10-31</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By SayA</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="繁簡轉換">簡</button><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往評論"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css')
+    if (false) {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})()</script><script>(() => {
+  let initFn = window.walineFn || null
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = {"turnstileKey":"0x4AAAAAAAcD5ByjmzcNyCDK","meta":["nick","mail"],"requiredMeta":["nick"],"lang":"zh-TW","search":false,"login":"enable","locale":{"nick":"暱稱","mail":"信箱","link":"個人網站","admin":"Admin","placeholder":"本站已啟用評論通知，若希望收到回覆通知，請務必留下信箱。本站不需註冊即可評論，但若欲使用個人頭像，請使用在 Gravatar 註冊的信箱，或是註冊本站之評論系統後自行設定。"}}
+
+  const destroyWaline = ele => ele.destroy()
+
+  const initWaline = (Fn, el = document, path = window.location.pathname) => {
+    const waline = Fn({
+      el: el.querySelector('#waline-wrap'),
+      serverURL: 'https://wl.gdst.dev/',
+      pageview: true,
+      dark: 'html[data-theme="dark"]',
+      comment: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyWaline = () => {
+        destroyWaline(waline)
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const loadWaline = (el, path) => {
+    if (initFn) initWaline(initFn, el, path)
+    else {
+      btf.getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css')
+        .then(() => import('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js'))
+        .then(({ init }) => {
+          initFn = init || Waline.init
+          initWaline(initFn, el, path)
+          window.walineFn = initFn
+        })
+    }
+  }
+
+  if (isShuoshuo) {
+    'Waline' === 'Waline'
+      ? window.shuoshuoComment = { loadComment: loadWaline } 
+      : window.loadOtherComment = loadWaline
+    return
+  }
+
+  if ('Waline' === 'Waline' || !false) {
+    if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'cxyfer/hexo-giscus',
+      'data-repo-id': 'R_kgDOL7DtCA',
+      'data-category-id': 'DIC_kwDOL7DtCM4CfVdo',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Waline' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Waline' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
