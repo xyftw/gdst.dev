@@ -78,8 +78,6 @@
       
       <category domain="https://gdst.dev/categories/LeetCode/Medium/">Medium</category>
       
-      <category domain="https://gdst.dev/categories/GradProb/Math/">Math</category>
-      
       <category domain="https://gdst.dev/categories/GradProb/DSA/">DSA</category>
       
       
@@ -341,9 +339,9 @@
       
       <category domain="https://gdst.dev/tags/LeetCode/">LeetCode</category>
       
-      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
-      
       <category domain="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/">陣列(Array)</category>
+      
+      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
       
       
       <comments>https://gdst.dev/posts/LC-2463/#disqus_thread</comments>
@@ -413,9 +411,9 @@
       
       <category domain="https://gdst.dev/tags/LeetCode/">LeetCode</category>
       
-      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
-      
       <category domain="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/">陣列(Array)</category>
+      
+      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
       
       
       <comments>https://gdst.dev/posts/LC-2501/#disqus_thread</comments>
@@ -632,9 +630,9 @@
       
       <category domain="https://gdst.dev/tags/LeetCode/">LeetCode</category>
       
-      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
-      
       <category domain="https://gdst.dev/tags/%E9%99%A3%E5%88%97-Array/">陣列(Array)</category>
+      
+      <category domain="https://gdst.dev/tags/%E6%8E%92%E5%BA%8F-Sorting/">排序(Sorting)</category>
       
       
       <comments>https://gdst.dev/posts/LC-3194/#disqus_thread</comments>
