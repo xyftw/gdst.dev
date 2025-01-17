@@ -30,11 +30,11 @@
     
     
     
+    <category term="GradProb" scheme="https://gdst.dev/categories/GradProb/"/>
+    
     <category term="LeetCode" scheme="https://gdst.dev/categories/LeetCode/"/>
     
     <category term="Medium" scheme="https://gdst.dev/categories/LeetCode/Medium/"/>
-    
-    <category term="GradProb" scheme="https://gdst.dev/categories/GradProb/"/>
     
     <category term="DSA" scheme="https://gdst.dev/categories/GradProb/DSA/"/>
     
@@ -75,11 +75,11 @@
     
     
     
+    <category term="GradProb" scheme="https://gdst.dev/categories/GradProb/"/>
+    
     <category term="LeetCode" scheme="https://gdst.dev/categories/LeetCode/"/>
     
     <category term="Medium" scheme="https://gdst.dev/categories/LeetCode/Medium/"/>
-    
-    <category term="GradProb" scheme="https://gdst.dev/categories/GradProb/"/>
     
     <category term="Math" scheme="https://gdst.dev/categories/GradProb/Math/"/>
     
@@ -666,9 +666,9 @@
     
     <category term="AOAPC-BAC" scheme="https://gdst.dev/categories/UVA/AOAPC-BAC/"/>
     
-    <category term="Ch10" scheme="https://gdst.dev/categories/UVA/AOAPC-BAC/Ch10/"/>
-    
     <category term="CPE-241015" scheme="https://gdst.dev/categories/UVA/CPE/CPE-241015/"/>
+    
+    <category term="Ch10" scheme="https://gdst.dev/categories/UVA/AOAPC-BAC/Ch10/"/>
     
     <category term="CPE-101011" scheme="https://gdst.dev/categories/UVA/CPE/CPE-101011/"/>
     
