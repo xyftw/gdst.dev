@@ -1,4 +1,6 @@
+https://gdst.dev/posts/LC-295/
 https://gdst.dev/posts/LC-53/
+https://gdst.dev/posts/UVA-10107/
 https://gdst.dev/posts/LC-31/
 https://gdst.dev/posts/LC-1671/
 https://gdst.dev/posts/LC_P300/
@@ -37,7 +39,6 @@ https://gdst.dev/posts/LC-2779/
 https://gdst.dev/posts/LC-1051/
 https://gdst.dev/posts/LC-523/
 https://gdst.dev/posts/UVA-834/
-https://gdst.dev/posts/UVA-10107/
 https://gdst.dev/posts/LC-684/
 https://gdst.dev/posts/LC-807/
 https://gdst.dev/posts/LC-3171/
@@ -389,6 +390,8 @@ https://gdst.dev/tags/%E7%B5%84%E5%90%88%E6%95%B8%E5%AD%B8/
 https://gdst.dev/tags/%E6%9C%80%E5%B0%8F%E6%94%AF%E9%85%8D%E9%9B%86-Minimum-Dominating-Set/
 https://gdst.dev/tags/%E5%9F%83%E6%B0%8F%E7%AF%A9-Sieve-of-Eratosthenes/
 https://gdst.dev/tags/113%E4%BA%A4%E5%A4%A7/
+https://gdst.dev/tags/112%E5%8F%B0%E5%A4%A7/
+https://gdst.dev/tags/%E8%B3%87%E6%96%99%E6%B5%81-Data-Stream/
 https://gdst.dev/categories/AtCoder/
 https://gdst.dev/categories/AtCoder/ABC/
 https://gdst.dev/categories/Codeforces/
