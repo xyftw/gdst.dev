@@ -1,0 +1,38 @@
+name: Deploy
+on: [push]
+
+jobs:
+build:
+    runs-on: ubuntu-latest
+    name: Deploy Hexo Blog
+    steps:
+    - name: Checkout
+    uses: actions/checkout@v1
+    
+    - name: Cache node modules
+    uses: actions/cache@v2
+    id: cache
+    with:
+        path: node_modules
+        key: ${{ runner.OS }}-npm-cache
+        restore-keys: |
+        ${{ runner.OS }}-npm-cache
+        
+    - name: Install Dependencies
+    run: npm install
+    
+    - name: Deploy
+    run: |
+        mkdir -p ~/.ssh/
+        echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        
+        git config --global user.name "$YOUR_GITHUB_USERNAME>"
+        git config --global user.email "$YOUR_GITHUB_EMAIL"
+        
+        hexo clean && hexo g && hexo d
+        
+    - name: Get the output
+    run: |
+        echo "${{ steps.deploy.outputs.notify }}"
